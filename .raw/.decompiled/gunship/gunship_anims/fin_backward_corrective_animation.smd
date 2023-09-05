@@ -1,0 +1,28 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "Gunship.Body" -1
+  1 "Gunship.Belly_R" 0
+  2 "Gunship.Antenna_R" 0
+  3 "Gunship.Spine" 0
+  4 "Gunship.humerus_R" 3
+  5 "Gunship.Ulna_R" 4
+  6 "Gunship.CarpalsR" 5
+  7 "Gunship.Phalanges_R" 6
+  8 "Gunship.humerus_L" 3
+  9 "Gunship.Ulna_L" 8
+  10 "Gunship.Carpals_L" 9
+  11 "Gunship.Phalanges_L" 10
+  12 "Gunship.Scanner" 3
+  13 "Gunship.Nose" 3
+  14 "Gunship.Nose_Weapon" 13
+  15 "Gunship.Belly_Weapon" 0
+  16 "Gunship.Belly_L" 0
+  17 "Gunship.Antenna_L" 0
+  18 "Gunship.Tail" 0
+  19 "Gunship.Propeller" 18
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 0.000000 0.000000 -1.570796
+end
