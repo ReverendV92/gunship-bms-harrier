@@ -12,10 +12,10 @@ $illumposition 0 0.886 -1.446
 
 $cdmaterials models/props_vehicles
 
-$attachment "muzzle" "static_prop" 0 -345 -20 rotate 0 -90 0
+$attachment "muzzle" "static_prop" 25 -140 -80 rotate -0 -90 0
 $attachment "exhaustl" "static_prop" 52 0 -38 rotate 0 80 0
 $attachment "exhaustr" "static_prop" -52 0 -38 rotate 0 100 0
-$attachment "bellygun" "static_prop" 0 0 -75 rotate 0 0 0
+$attachment "bellygun" "static_prop" 0w 0 -75 rotate 0 0 0
 $attachment "rotor" "static_prop" 0 -100 0 rotate 0 0 0
 
 $sequence idle {
