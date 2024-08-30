@@ -4,3 +4,4 @@
 *.cache
 .content/gunship-bms-harrier/sound/sound.cache
 *.lnk
+*.json
