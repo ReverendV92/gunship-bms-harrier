@@ -15,7 +15,7 @@ $cdmaterials models/props_vehicles
 $attachment "muzzle" "static_prop" 25 -140 -80 rotate -0 -90 0
 $attachment "exhaustl" "static_prop" 52 0 -38 rotate 0 80 0
 $attachment "exhaustr" "static_prop" -52 0 -38 rotate 0 100 0
-$attachment "bellygun" "static_prop" 0w 0 -75 rotate 0 0 0
+$attachment "bellygun" "static_prop" 0 0 -75 rotate 0 0 0
 $attachment "rotor" "static_prop" 0 -100 0 rotate 0 0 0
 
 $sequence idle {
@@ -37,7 +37,8 @@ $sequence ragdoll {
 	fps 1
 }
 
-$collisionmodel harrier_physics
+// $collisionmodel harrier_physics
+$collisionjoints harrier_physics
 {
 
 	$mass 1000
@@ -49,3 +50,13 @@ $collisionmodel harrier_physics
 	$maxconvexpieces 7
 
 }
+
+// $collisiontext
+// {
+	// break 
+	// {
+		// "model" "gunship"
+		// "fadetime" "20"
+		// "placementbone" "static_prop"
+	// }
+// }
